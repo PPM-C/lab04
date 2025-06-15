@@ -1,0 +1,112 @@
+*{
+	margin:0;
+	padding: 0;
+	background-color: #000000;
+	color: white;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
+}
+
+h1 {
+    font-size: 4.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+	background-color: transparent;
+    margin:0;
+    padding: 16px;
+	z-index: 1
+
+}
+
+h2{
+    text-align: center;
+}
+.hero {background-image: url('https://palomaynacho.com/wp-content/uploads/2025/05/Dia-de-Goku-Goky-Day.jpg');
+  background-size: cover;       
+  background-position: center;  
+  background-repeat: no-repeat; 
+  height: 100vh; 
+  display: flex;
+ justify-content: center;
+	align-items: center;
+}
+
+
+
+main {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    margin: 3rem;
+    font-size: 1.3rem;
+}
+
+.content-block {
+    display: flex;        
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 3rem;
+    width: 100%;
+    max-width: 1000px;
+}
+
+img {
+    width: 30vw;
+    height: 30vw;
+    object-fit: cover;
+    border-radius: 32px;
+}
+
+p {
+    width: 30vw;
+    text-align: justify;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.card {
+    background-color: #01b1eb;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 317px;
+    text-align: left;
+    transition: transform 0.5s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 
+        0 0 20px rgba(0, 234, 255, 0.6),
+        0 0 60px rgba(0, 225, 255, 0.3),
+        inset 0 0 10px rgba(0, 255, 255, 0.2);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+
+}
+
+.card h3 {
+    text-align: center;
+    margin: 1rem;
+    font-size: 1.25rem;
+    background-color: #01b1eb;
+    color: white;
+}
+
+.card p {
+    margin: 0 1rem 1rem;
+    background-color: #01b1eb;
+    color: white;
+}
